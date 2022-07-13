@@ -43,6 +43,10 @@ html,body {
 }
 
 
+.readmore{
+  margin-top: 30px;
+}
+
 /*** Navbar ***/
 .navbar .navbar-nav .nav-link {
     position: relative;
@@ -199,7 +203,7 @@ html,body {
 }
 
 .bg{
-  background-color: #101203;
+  background-color: #040D21;
 }
 
 .page-header {
@@ -219,6 +223,23 @@ html,body {
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: rgba(256, 256, 256, .5);
+}
+
+/**/
+.content{
+background-color: #040D21;
+}
+
+.body_header{
+  font-size: 48px;
+  background: -webkit-linear-gradient(#3cd184, #040D21);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.body_para{
+  font-size: 1.4em;
 }
 
 /*** Service ***/
