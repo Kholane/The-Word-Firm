@@ -242,6 +242,11 @@ background-color: #040D21;
   font-size: 1.4em;
 }
 
+.index_heading{
+  font-size: 40pt;
+  color:#34D788
+}
+
 /*** Service ***/
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
@@ -296,4 +301,12 @@ background-color: #040D21;
     bottom: 45px;
     z-index: 99;
     background-color: #1fd655;
+}
+
+.seo_head p{
+  font-size: 16pt;
+}
+
+.seo_head h1{
+  color: #34D788;
 }

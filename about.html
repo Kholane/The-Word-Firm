@@ -14,24 +14,24 @@
 
     <!-- Navbar & Hero Start -->
     <div class="container-xxl position-relative p-0">
-        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand p-0">
-                <img class="logo2" src="img/logo2.PNG" alt="Logo">
-                <img class="logo" src="img/logo.PNG" alt="Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <h3><i class="bi bi-list"></i></h3>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link ">Home</a>
-                    <a href="about.html" class="nav-item nav-link active">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-                <a href="contact.html" class="btn btn-success rounded-pill text-light py-2 px-4 ms-lg-5">Request Quote</a>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+          <a href="index.html" class="navbar-brand p-0">
+              <img class="logo2" src="img/logo2.PNG" alt="Logo">
+              <img class="logo" src="img/logo.PNG" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <h3><i class="bi bi-list"></i></h3>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto py-0">
+                  <a href="index.html" class="nav-item nav-link active">Home</a>
+                  <a href="about.html" class="nav-item nav-link">About</a>
+                  <a href="service.html" class="nav-item nav-link">Services</a>
+                  <a href="contact.html" class="nav-item nav-link">Contact</a>
+              </div>
+              <a href="#requestQuote" class="btn btn-success rounded-pill text-light py-2 px-4 ms-lg-5">Request Quote</a>
+          </div>
+      </nav>
 
         <div class="container-xxl page-header">
             <div class="container text-center">
@@ -102,10 +102,10 @@
         <!-- Service End -->
 
         <!-- Contact Start -->
-        <div class="container-xxl mt-5 py-5">
+        <div class="container-xxl mt-5 py-5" id="requestQuote">
             <div class="container">
                 <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h2 class="mb-5">Contact Us</h2>
+                    <h2 class="mb-5">Request a Quote</h2>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.3s">
@@ -131,8 +131,13 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
+                                      <select class="form-control" id="subject" name="">
+                                        <option value="SEO Writing">SEO Writing</option>
+                                        <option value="Copywriting">Copywriting</option>
+                                        <option value="Grant or Proposal Writing">Grant or Proposal Writing</option>
+                                        <option value="Other Writing Services">Other Writing Services</option>
+                                      </select>
+                                        <label for="subject">Select Subject</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
